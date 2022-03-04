@@ -1,0 +1,53 @@
+Installing micro-frontend dependencies
+npm WARN @apideck/better-ajv-errors@0.3.2 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN @craco/craco@6.4.3 requires a peer of react-scripts@^4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN cosmiconfig-typescript-loader@1.0.4 requires a peer of typescript@>=3 but none is installed. You must install peer dependencies yourself.
+npm WARN fork-ts-checker-webpack-plugin@6.5.0 requires a peer of typescript@>= 2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN ts-node@10.4.0 requires a peer of typescript@>=2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+
+audited 1482 packages in 7.266s
+
+171 packages are looking for funding
+  run `npm fund` for details
+
+found 3 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+Building micro-frontend code
+
+> stats-widget@0.1.0 build /Users/sohini/entando-projects/statistics/ui/widgets/widgets-dir/stats-widget
+> craco build
+
+Creating an optimized production build...
+
+warn - As of Tailwind CSS v3.0, `coolGray` has been renamed to `gray`.
+warn - Update your configuration file to silence this warning.
+
+warn - The `purge`/`content` options have changed in Tailwind CSS v3.0.
+warn - Update your configuration file to eliminate this warning.
+warn - https://tailwindcss.com/docs/upgrade-guide#configure-content-sources
+
+warn - The `darkMode` option in your Tailwind CSS configuration is set to `false`, which now behaves the same as `media`.
+warn - Change `darkMode` to `media` or remove it entirely.
+warn - https://tailwindcss.com/docs/upgrade-guide#remove-dark-mode-configuration
+Compiled successfully.
+
+File sizes after gzip:
+
+43.78 kB  build/static/js/main.700bbcb1.js
+2 kB      build/static/css/main.fdc00521.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+npm install -g serve
+serve -s build
+
+Find out more about deployment here:
+
+https://cra.link/deployment
+
+widgets-dir - stats-widget built successfully
